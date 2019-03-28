@@ -23,7 +23,7 @@ Demo: https://trendmicro-frontend.github.io/react-form-control
   import '@trendmicro/react-form-control/dist/react-form-control.css';
   ```
 
-## Usage
+## Overview
 
 ### Form controls
 
