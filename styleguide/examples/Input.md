@@ -1,18 +1,10 @@
 ### Sizing
 
 ```jsx
-<FormGroup>
-    <Input type="text" fcSize="lg" placeholder="Large input" />
-</FormGroup>
-<FormGroup>
-    <Input type="text" fcSize="md" placeholder="Medium input" />
-</FormGroup>
-<FormGroup>
-    <Input type="text" fcSize="sm" placeholder="Small input" />
-</FormGroup>
-<FormGroup>
-    <Input type="text" fcSize="xs" placeholder="Extra small input" />
-</FormGroup>
+<Input type="text" fcSize="lg" placeholder="Large input" />
+<Input type="text" fcSize="md" placeholder="Medium input" />
+<Input type="text" fcSize="sm" placeholder="Small input" />
+<Input type="text" fcSize="xs" placeholder="Extra small input" />
 ```
 
 ### Attributes
@@ -26,12 +18,8 @@ The `disabled` attribute specifies whether the control is disabled for user inpu
 * Disabled controls are skipped in tabbing navigation.
 
 ```jsx
-<FormGroup>
-    <Input type="text" placeholder="[placeholder] Disabled input" disabled />
-</FormGroup>
-<FormGroup>
-    <Input type="text" value="[value] Disabled input" disabled />
-</FormGroup>
+<Input type="text" placeholder="[placeholder] Disabled input" disabled />
+<Input type="text" value="[value] Disabled input" disabled />
 ```
 
 #### Read-only
@@ -43,10 +31,6 @@ The `readOnly` attribute specifies whether the control may be modified by the us
 * Read-only controls are included in tabbing navigation.
 
 ```jsx
-<FormGroup>
-    <Input type="text" placeholder="[placeholder] Read-only input" readOnly />
-</FormGroup>
-<FormGroup>
-    <Input type="text" value="[value] Read-only input" readOnly />
-</FormGroup>
+<Input type="text" placeholder="[placeholder] Read-only input" readOnly />
+<Input type="text" value="[value] Read-only input" readOnly />
 ```

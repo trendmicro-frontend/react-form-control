@@ -23,7 +23,11 @@ Demo: https://trendmicro-frontend.github.io/react-form-control
   import '@trendmicro/react-form-control/dist/react-form-control.css';
   ```
 
-## Usage
+## Overview
+
+### Form controls
+
+The `<FormControl>` component renders a form control with block-level styling (`display: block` and `width: 100%`). Supported textual form controls includes `<Input>`, `<Select>`, and `<Textarea>`.
 
 ```jsx
 <FormGroup>
@@ -32,7 +36,7 @@ Demo: https://trendmicro-frontend.github.io/react-form-control
 </FormGroup>
 <FormGroup>
     <label>Example select</label>
-    <Select>
+    <Select defaultValue="1">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -42,7 +46,7 @@ Demo: https://trendmicro-frontend.github.io/react-form-control
 </FormGroup>
 <FormGroup>
     <label>Example multiple select</label>
-    <Select multiple>
+    <Select multiple defaultValue="1">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -54,6 +58,18 @@ Demo: https://trendmicro-frontend.github.io/react-form-control
     <label>Example textarea</label>
     <Textarea rows={3} />
 </FormGroup>
+```
+
+### Form groups
+
+Using the `<FormGroup>` component is the easiest way to add some structure to forms, it provides a flexible way that encourages proper grouping of labels, controls, and form validation messaging.
+
+The `<FormGroup>` component is not provided here, but you can use [styled-components](https://github.com/styled-components/styled-components) to style with plain CSS styles. By default, it only applies `margin-bottom` as below:
+
+```jsx
+const FormGroup = styled.div`
+    margin-bottom: 12px;
+`;
 ```
 
 ## API
