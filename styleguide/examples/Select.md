@@ -10,9 +10,6 @@
 <Select fcSize="sm">
     <option>Small select</option>
 </Select>
-<Select fcSize="xs">
-    <option>Extra small select</option>
-</Select>
 ```
 
 ### Attributes

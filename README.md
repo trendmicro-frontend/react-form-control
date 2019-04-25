@@ -81,21 +81,21 @@ const FormGroup = styled.div`
 Name | Type | Default | Description
 :--- | :--- | :------ | :----------
 tag | element | 'div' |
-fcSize | One of:<br/>'lg'<br/>'md'<br/>'sm'<br/>'xs' | 'md' |
+fcSize | One of:<br/>'lg'<br/>'md'<br/>'sm' | 'md' |
 
 #### Input
 
 Name | Type | Default | Description
 :--- | :--- | :------ | :----------
 tag | element | 'input' |
-fcSize | One of:<br/>'lg'<br/>'md'<br/>'sm'<br/>'xs' | 'md' |
+fcSize | One of:<br/>'lg'<br/>'md'<br/>'sm' | 'md' |
 
 #### Select
 
 Name | Type | Default | Description
 :--- | :--- | :------ | :----------
 tag | element | 'select' |
-fcSize | One of:<br/>'lg'<br/>'md'<br/>'sm'<br/>'xs' | 'md' |
+fcSize | One of:<br/>'lg'<br/>'md'<br/>'sm' | 'md' |
 
 #### Textarea
 
