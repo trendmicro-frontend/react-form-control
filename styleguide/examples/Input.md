@@ -4,7 +4,6 @@
 <Input type="text" fcSize="lg" placeholder="Large input" />
 <Input type="text" fcSize="md" placeholder="Medium input" />
 <Input type="text" fcSize="sm" placeholder="Small input" />
-<Input type="text" fcSize="xs" placeholder="Extra small input" />
 ```
 
 ### Attributes

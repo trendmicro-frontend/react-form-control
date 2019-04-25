@@ -10,9 +10,6 @@
 <FormControl fcSize="sm">
     Small
 </FormControl>
-<FormControl fcSize="xs">
-    Extra small
-</FormControl>
 ```
 
 ### Plain text
