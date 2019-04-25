@@ -81,27 +81,27 @@ const FormGroup = styled.div`
 Name | Type | Default | Description
 :--- | :--- | :------ | :----------
 tag | element | 'div' |
-lg | boolean | false |
-md | boolean | true |
-sm | boolean | false |
+lg | boolean | |
+md | boolean | | Defaults to 'md' if nothing is specified.
+sm | boolean | |
 
 #### Input
 
 Name | Type | Default | Description
 :--- | :--- | :------ | :----------
 tag | element | 'input' |
-lg | boolean | false |
-md | boolean | true |
-sm | boolean | false |
+lg | boolean | |
+md | boolean | | Defaults to 'md' if nothing is specified.
+sm | boolean | |
 
 #### Select
 
 Name | Type | Default | Description
 :--- | :--- | :------ | :----------
 tag | element | 'select' |
-lg | boolean | false |
-md | boolean | true |
-sm | boolean | false |
+lg | boolean | |
+md | boolean | | Defaults to 'md' if nothing is specified.
+sm | boolean | |
 
 #### Textarea
 

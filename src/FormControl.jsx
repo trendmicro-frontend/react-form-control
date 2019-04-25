@@ -13,9 +13,6 @@ const propTypes = {
 
 const defaultProps = {
     tag: 'div',
-    lg: false,
-    md: true,
-    sm: false,
 };
 
 const FormControl = ({
