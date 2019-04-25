@@ -1,9 +1,9 @@
 ### Sizing
 
 ```jsx
-<Input type="text" fcSize="lg" placeholder="Large input" />
-<Input type="text" fcSize="md" placeholder="Medium input" />
-<Input type="text" fcSize="sm" placeholder="Small input" />
+<Input type="text" lg placeholder="Large" />
+<Input type="text" md placeholder="Medium" />
+<Input type="text" sm placeholder="Small" />
 ```
 
 ### Attributes

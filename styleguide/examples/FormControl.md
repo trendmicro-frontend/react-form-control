@@ -1,13 +1,13 @@
 ### Sizing
 
 ```jsx
-<FormControl fcSize="lg">
+<FormControl lg>
     Large
 </FormControl>
-<FormControl fcSize="md">
+<FormControl md>
     Medium
 </FormControl>
-<FormControl fcSize="sm">
+<FormControl sm>
     Small
 </FormControl>
 ```

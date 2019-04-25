@@ -10,10 +10,3 @@ export const tag = PropTypes.oneOfType([
         PropTypes.shape({ $$typeof: PropTypes.symbol, render: PropTypes.func }),
     ]))
 ]);
-
-export const fcSize = PropTypes.oneOf([
-    'lg', 'large',
-    'md', 'medium',
-    'sm', 'small',
-    'xs', 'extra-small',
-]);
