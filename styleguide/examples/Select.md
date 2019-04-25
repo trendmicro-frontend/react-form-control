@@ -1,14 +1,14 @@
 ### Sizing
 
 ```jsx
-<Select fcSize="lg">
-    <option>Large select</option>
+<Select lg>
+    <option>Large</option>
 </Select>
-<Select fcSize="md">
-    <option>Medium select</option>
+<Select md>
+    <option>Medium</option>
 </Select>
-<Select fcSize="sm">
-    <option>Small select</option>
+<Select sm>
+    <option>Small</option>
 </Select>
 ```
 
