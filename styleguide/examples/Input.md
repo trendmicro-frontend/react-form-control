@@ -33,3 +33,22 @@ The `readOnly` attribute specifies whether the control may be modified by the us
 <Input type="text" placeholder="[placeholder] Read-only input" readOnly />
 <Input type="text" value="[value] Read-only input" readOnly />
 ```
+
+### Ref forwarding
+
+```jsx
+const ref = React.createRef();
+const [value, setValue] = React.useState('');
+
+<>
+    <div>ref.current.value = {JSON.stringify(value)}</div>
+    <br />
+    <Input
+        ref={ref}
+        type="text"
+        onChange={() => {
+            setValue(ref.current.value);
+        }}
+    />
+</>
+```

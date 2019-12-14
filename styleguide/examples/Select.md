@@ -57,3 +57,26 @@ The `size` attribute specifies the number of visible options in the list.
     <option value="3">Three</option>
 </Select>
 ```
+
+### Ref forwarding
+
+```jsx
+const ref = React.createRef();
+const [value, setValue] = React.useState('one');
+
+<>
+    <div>ref.current.value = {JSON.stringify(value)}</div>
+    <br />
+    <Select
+        ref={ref}
+        defaultValue="one"
+        onChange={(value) => {
+            setValue(ref.current.value);
+        }}
+    >
+        <option value="one">One</option>
+        <option value="two">Two</option>
+        <option value="three">Three</option>
+    </Select>
+</>
+```
