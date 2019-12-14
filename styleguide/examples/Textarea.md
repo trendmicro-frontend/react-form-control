@@ -29,3 +29,21 @@ The `readOnly` attribute specifies whether the control may be modified by the us
 <Textarea placeholder="[placeholder] Read-only textarea" readOnly />
 <Textarea value="[value] Read-only textarea" readOnly />
 ```
+
+### Ref forwarding
+
+```jsx
+const ref = React.createRef();
+const [value, setValue] = React.useState('');
+
+<>
+    <div>ref.current.value = {JSON.stringify(value)}</div>
+    <br />
+    <Textarea
+        ref={ref}
+        onChange={(value) => {
+            setValue(ref.current.value);
+        }}
+    />
+</>
+```
