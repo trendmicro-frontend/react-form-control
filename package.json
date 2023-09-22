@@ -26,14 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/trendmicro-frontend/react-form-control.git"
   },
-  "author": "Cheton Wu <cheton_wu@trendmicro.com>",
-  "contributors": [
-    {
-      "name": "Cheton Wu",
-      "email": "cheton_wu@trendmicro.com",
-      "url": "https://github.com/trendmicro-frontend"
-    }
-  ],
+  "author": "Cheton Wu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/trendmicro-frontend/react-form-control/issues"
